@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon titre</title>
+        <meta charset="utf-8" />
+        <link href="prototype.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="JS.js" async></script>
+    </head>
+    <header>
+        
+    </header>
+    <body>
+        
+            
+
+        <div id = "dialogue1">
+        </div>
+       
+        
+        
+        <div id="monstres">
+            <div id = "monstre1">
+                <p id ="monstre1HP">100</p>
+                <img src="assets/monstre 1.png" id = "monstre1Img" onmouseover="afficherHP('monstre1HP')" onmouseout="cacherHP()"> </img>
+            </div>
+            <div id = "monstre2">
+                <p id ="monstre2HP">100</p>
+                <img src="assets/monstre 2.png" id = "monstre2Img" alt = "monstre2Img">
+                <div class="monstre2Imginfo">
+                </div>
+                
+            </div>
+            <div id = "monstre3">
+                <p id ="monstre3HP">100</p>
+                <img src="assets/monstre 3.png" id = "monstre3Img">
+            </div>
+         </div>
+         
+            <div id = "hero1Img">
+                <img src="assets/hero1.png" id = "hero1Img">
+                <div id = "infohero1">
+                    <p id = "pvHero1">PV: 50</p>
+                    
+                    
+                    <p id = "magieHero1">
+                        Magie: 40
+                    </p>
+                   
+                </div>
+            </div>
+            <div id = "hero2Img">
+                <img src="assets/hero2.png" id = "hero2Img">
+                <div id = "infohero2">
+                    <p id = "pvHero2">
+                        PV: 50
+                    </p>
+                    <p id = "magieHero2">
+                        Magie: 40
+                    </p>
+                    
+                </div>
+            </div>    
+            <div id = "hero3Img">
+                <img src="assets/hero3.png" id = "hero3Img">
+                <div id = "infohero3">
+                    <p id="pvHero3">
+                        PV: 50
+                    </p>
+                    <p id="magieHero3">
+                        Magie: 40
+                    </p>
+                    
+                </div>
+            </div>    
+            <div id = "hero4Img">
+                <img src="assets/hero4.png" id = "hero4Img">
+                <div id = "infohero4">
+                    <p id = "pvHero4">
+                        PV: 50
+                    </p>
+                    <p id = "magieHero4">
+                        Magie: 40
+                    </p>
+                    
+                </div>
+            </div>
+            <input type = button id = 'defense' onclick="Defense()" value="Defense">
+              
+
+            
+            <input type = button id ='attaquer' onclick="Attaque()" value="Attaque">
+           
+                
+            <input type = button id = 'magie' onclick="Magie()" value="Magie">
+              
+            </div>
+       
+        
+         
+            
+       
+        
+        
+    </body>
+</html>
